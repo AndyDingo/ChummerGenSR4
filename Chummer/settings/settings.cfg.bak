@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config version="1.2">
+	<language>en-us</language>
+	<debugmode>False</debugmode>
+	<defaultsheet>Shadowrun 4</defaultsheet>
+	<datesincludetime>True</datesincludetime>
+	<localisedupdatesonly>False</localisedupdatesonly>
+	<pdfapppath>C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe</pdfapppath>
+	<pdfargumentstyle>Adobe/Foxit</pdfargumentstyle>
+	<singlediceroller>True</singlediceroller>
+	<startupfullscreen>False</startupfullscreen>
+</config>

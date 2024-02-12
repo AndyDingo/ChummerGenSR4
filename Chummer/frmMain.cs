@@ -10,9 +10,10 @@ namespace Chummer
 	{
 		private frmOmae _frmOmae;
 		private frmDiceRoller _frmRoller;
+        public static string s_cfgfile = Environment.CurrentDirectory + @"\settings\settings.cfg"; // Main config
 
-		#region Control Events
-		public frmMain()
+        #region Control Events
+        public frmMain()
 		{
 			InitializeComponent();
 			LanguageManager.Instance.Load(GlobalOptions.Instance.Language, this);

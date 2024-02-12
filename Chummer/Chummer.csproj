@@ -1054,6 +1054,7 @@
     <Content Include="settings\Darkness_in_the_heart_of_texas.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="settings\settings.cfg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

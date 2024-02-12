@@ -445,7 +445,7 @@
             // 
             this.mnuToolsDiceRoller.Image = global::Chummer.Properties.Resources.die;
             this.mnuToolsDiceRoller.Name = "mnuToolsDiceRoller";
-            this.mnuToolsDiceRoller.Size = new System.Drawing.Size(180, 22);
+            this.mnuToolsDiceRoller.Size = new System.Drawing.Size(171, 22);
             this.mnuToolsDiceRoller.Tag = "Menu_Main_DiceRoller";
             this.mnuToolsDiceRoller.Text = "&Dice Roller";
             this.mnuToolsDiceRoller.Click += new System.EventHandler(this.mnuToolsDiceRoller_Click);
@@ -453,13 +453,13 @@
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(168, 6);
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Image = global::Chummer.Properties.Resources.cog_edit;
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.optionsToolStripMenuItem.Tag = "Menu_Main_Options";
             this.optionsToolStripMenuItem.Text = "&Options";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
@@ -468,7 +468,7 @@
             // 
             this.mnuToolsUpdate.Image = global::Chummer.Properties.Resources.server_lightning;
             this.mnuToolsUpdate.Name = "mnuToolsUpdate";
-            this.mnuToolsUpdate.Size = new System.Drawing.Size(180, 22);
+            this.mnuToolsUpdate.Size = new System.Drawing.Size(171, 22);
             this.mnuToolsUpdate.Tag = "Menu_Main_Update";
             this.mnuToolsUpdate.Text = "Check for Updates";
             this.mnuToolsUpdate.Click += new System.EventHandler(this.mnuToolsUpdate_Click);
@@ -477,7 +477,7 @@
             // 
             this.mnuToolsOmae.Enabled = false;
             this.mnuToolsOmae.Name = "mnuToolsOmae";
-            this.mnuToolsOmae.Size = new System.Drawing.Size(180, 22);
+            this.mnuToolsOmae.Size = new System.Drawing.Size(171, 22);
             this.mnuToolsOmae.Tag = "Menu_Main_Omae";
             this.mnuToolsOmae.Text = "Omae";
             this.mnuToolsOmae.Click += new System.EventHandler(this.mnuToolsOmae_Click);
@@ -496,7 +496,7 @@
             // newWindowToolStripMenuItem
             // 
             this.newWindowToolStripMenuItem.Name = "newWindowToolStripMenuItem";
-            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newWindowToolStripMenuItem.Tag = "Menu_Main_NewWindow";
             this.newWindowToolStripMenuItem.Text = "&New Window";
             this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.ShowNewForm);
@@ -504,7 +504,7 @@
             // closeAllToolStripMenuItem
             // 
             this.closeAllToolStripMenuItem.Name = "closeAllToolStripMenuItem";
-            this.closeAllToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.closeAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.closeAllToolStripMenuItem.Tag = "Menu_Main_CloseAll";
             this.closeAllToolStripMenuItem.Text = "C&lose All";
             this.closeAllToolStripMenuItem.Click += new System.EventHandler(this.CloseAllToolStripMenuItem_Click);
@@ -525,6 +525,7 @@
             // 
             // contentsToolStripMenuItem
             // 
+            this.contentsToolStripMenuItem.Enabled = false;
             this.contentsToolStripMenuItem.Image = global::Chummer.Properties.Resources.world_go;
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
             this.contentsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F1)));

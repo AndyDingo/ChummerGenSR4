@@ -28,6 +28,11 @@ namespace Chummer
 				this.Close();
 			}
 		}
-		#endregion
-	}
+        #endregion
+
+        private void txtRevisionHistory_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

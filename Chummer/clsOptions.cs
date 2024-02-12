@@ -168,30 +168,37 @@ namespace Chummer
 			}
 
 			// Omae Settings.
+
 			// Username.
-			try
-			{
-				_strOmaeUserName = Registry.CurrentUser.CreateSubKey("Software\\Chummer").GetValue("omaeusername").ToString();
-			}
-			catch
-			{
-			}
+
+			//try
+			//{
+			//	_strOmaeUserName = Registry.CurrentUser.CreateSubKey("Software\\Chummer").GetValue("omaeusername").ToString();
+			//}
+			//catch
+			//{
+			//}
+
 			// Password.
-			try
-			{
-				_strOmaePassword = Registry.CurrentUser.CreateSubKey("Software\\Chummer").GetValue("omaepassword").ToString();
-			}
-			catch
-			{
-			}
+
+			//try
+			//{
+			//	_strOmaePassword = Registry.CurrentUser.CreateSubKey("Software\\Chummer").GetValue("omaepassword").ToString();
+			//}
+			//catch
+			//{
+			//}
+
 			// AutoLogin.
-			try
-			{
-				_blnOmaeAutoLogin = Convert.ToBoolean(Registry.CurrentUser.CreateSubKey("Software\\Chummer").GetValue("omaeautologin").ToString());
-			}
-			catch
-			{
-			}
+
+			//try
+			//{
+			//	_blnOmaeAutoLogin = Convert.ToBoolean(Registry.CurrentUser.CreateSubKey("Software\\Chummer").GetValue("omaeautologin").ToString());
+			//}
+			//catch
+			//{
+			//}
+
 			// Language.
 			try
 			{
@@ -234,7 +241,8 @@ namespace Chummer
 				try
 				{
 					SourcebookInfo objSource = new SourcebookInfo();
-					string strTemp = Registry.CurrentUser.CreateSubKey("Software\\Chummer\\Sourcebook").GetValue(objXmlBook["code"].InnerText).ToString();
+					string strTemp = "";
+                    strTemp = Registry.CurrentUser.CreateSubKey("Software\\Chummer\\Sourcebook").GetValue(objXmlBook["code"].InnerText).ToString();
 					string[] strParts = strTemp.Split('|');
 					objSource.Code = objXmlBook["code"].InnerText;
 					objSource.Path = strParts[0];
